@@ -12,7 +12,7 @@ endif()
 project ("RtspServer")
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (RtspServer "RtspServer.cpp" "RtspServer.h")
+add_executable (RtspServer "RtspServer.cpp" )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET RtspServer PROPERTY CXX_STANDARD 20)
